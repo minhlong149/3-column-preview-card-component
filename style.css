@@ -1,0 +1,92 @@
+:root {
+    /* ---Primary colors--- */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /* ---Neutral colors--- */
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* Paragraphs */
+    --light-gray: hsl(0, 0%, 95%); /* Background, headings, buttons */
+}
+
+/* Fonts ---------------------
+Regular: Lexend Deca
+Bold: Big Shoulders Display 
+---------------------------- */
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--light-gray);
+    color: var(--transparent-white);
+}
+
+.component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---Content--- */
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--light-gray);
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    padding: 50px 30px;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: var(--light-gray);
+    border: solid 2px white;
+    text-decoration: none;
+}
+
+.card .btn:hover {
+    color: var(--light-gray);
+    background-color: transparent;
+}
+/* ---Cards custon colors--- */
+.sedans {
+    background-color: var(--bright-orange);
+}
+
+.sedans .btn {
+    color: var(--bright-orange);
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.suvs .btn {
+    color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+.luxury .btn {
+    color: var(--very-dark-cyan);
+}
