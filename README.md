@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [My solution](https://github.com/minhlong149/3-column-preview-card-component-main)
-- [Live site](https://minhlong149.github.io/3-column-preview-card-component-main/)
+- [My solution](https://github.com/minhlong149/3-column-preview-card-component)
+- [Live site](https://minhlong149.github.io/3-column-preview-card-component/)
 
 ## My process
 
